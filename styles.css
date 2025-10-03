@@ -20,6 +20,7 @@ header {
     padding: 0;
 }
 
+
 .container-1 {
     height: 100%;
     width: 100%;
@@ -54,6 +55,12 @@ header {
     position: relative;
     width: 10%;
     height: 10%;
-    z-index: 1;
-    right: 10px;
+    z-index: 4;
+    left: 0px;
+    color: #111;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    border-style: var(--border-style, none);
 }
