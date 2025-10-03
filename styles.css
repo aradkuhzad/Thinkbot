@@ -1,0 +1,44 @@
+.All-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header {
+    width: 100%;
+}
+
+.container-1 {
+    height: auto;
+    width: auto;
+    min-height: 1000px;
+}
+
+
+
+.framer-cwrlhb {
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.framer-18j6l1i {
+    height: 2px;
+    width: 18px;
+}
+
+.framer-yoe1yb {
+    height: 2px;
+    width: 18px;
+}
