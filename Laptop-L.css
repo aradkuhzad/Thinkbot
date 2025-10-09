@@ -1,3 +1,70 @@
 @media (min-width: 1199px) {
+    .nav {
+        padding: 24px;
+    }
 
+    .menu {
+        display: none;
+    }
+
+    .nav-menu{
+        width: 421px;
+        height: 100%;
+        background-color: red;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-menu-content {
+        width: min-content;
+        height: min-content;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: min-content;
+        padding: 8px 14px;
+        background-color: azure;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: "Instrument Sans" , sans-serif;
+    }
+
+    .box-2 {
+        width: min-content;
+        padding: 8px 14px;
+        background-color: azure;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: 'Font2', sans-serif;
+    }
+
+    .box-3 {
+        width: min-content;
+        padding: 8px 14px;
+        background-color: azure;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: 'Font1', sans-serif;
+    }
+
+    .box-4 {
+        width: min-content;
+        padding: 8px 14px;
+        background-color: azure;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: 'Font2', sans-serif;
+    }
+
+    .box-5 {
+        width: min-content;
+        padding: 8px 14px;
+        background-color: azure;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: 'Font1', sans-serif;
+    }
 }
