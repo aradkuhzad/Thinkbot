@@ -48,4 +48,26 @@
         transform-origin: bottom; 
         transform: scaleY(0.9);
     }
+
+    .nav .logo::before,
+.nav .nav-box-right::before {
+    top: 52px;
+}
+
+.nav .logo::before {
+    left: -27px;
+}
+
+.nav .nav-box-right::before {
+    top: 56px;
+    right: -27px;
+}
+
+    .nav::before {
+        left: 24px;
+    }
+    
+    .nav::after {
+        right: 24px;
+    }
 }
