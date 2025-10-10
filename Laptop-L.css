@@ -72,4 +72,12 @@
         letter-spacing: -0.14px;
         transform: scaleY(0.9);
     }
+
+    .nav::before {
+        left: 0;
+    }
+    
+    .nav::after {
+        right: 0;
+    }
 }
