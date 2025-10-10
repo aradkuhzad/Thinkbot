@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: center;    
     border-bottom: 1px solid rgb(224, 226, 230);
+    max-width: 100%;
 }
 
 .nav {
@@ -47,7 +48,7 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    max-width: 1199px;
+    max-width: 1152px;
     position: relative;
 }
 
@@ -188,3 +189,22 @@
     left: -1px;
 }
 
+
+.Section-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+}
+
+.box-2-1 {
+    position: absolute;
+    top: 100px;
+    width: 720px;
+    height: 236px;
+    padding: 0px 16px;
+    background-color: #695454;
+    z-index: 10;
+}
