@@ -37,7 +37,6 @@
     align-items: center;
     justify-content: center;
     max-width: 1152px;
-    background-color: #111;
 }
 
 .nav {
@@ -56,7 +55,6 @@
     width: 36px;
     height: 36px;
     padding: 6px;
-    background-color: red;
     border-radius: 8px;
 }
 
@@ -103,5 +101,13 @@
     border-style: solid;
     border-top-width: 1px;
     border-style: var(--border-style, none);
+}
+
+.nav-menu {
+    display: none;
+}
+
+.button {
+    display: none;
 }
     
