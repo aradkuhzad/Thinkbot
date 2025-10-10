@@ -8,6 +8,7 @@
     }
 
     .nav-menu{
+        display: block;
         width: 421px;
         height: 100%;
         background-color: red;
@@ -18,7 +19,7 @@
     .nav-menu-content {
         width: min-content;
         height: min-content;
-        gap: 8px;
+        gap: 8.75px;
         display: flex;
         align-items: center;
     }
@@ -29,7 +30,9 @@
         background-color: azure;
         font-size: 14px;
         border-radius: 999px;
-        font-family: "Instrument Sans" , sans-serif;
+        font-family: 'Font2', sans-serif;
+        letter-spacing: -0.14px;
+        transform: scaleY(0.9);
     }
 
     .box-2 {
@@ -39,6 +42,8 @@
         font-size: 14px;
         border-radius: 999px;
         font-family: 'Font2', sans-serif;
+        letter-spacing: -0.14px;
+        transform: scaleY(0.9);
     }
 
     .box-3 {
@@ -47,7 +52,9 @@
         background-color: azure;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font1', sans-serif;
+        font-family: 'Font2', sans-serif;
+        letter-spacing: -0.14px;
+        transform: scaleY(0.9);
     }
 
     .box-4 {
@@ -57,6 +64,8 @@
         font-size: 14px;
         border-radius: 999px;
         font-family: 'Font2', sans-serif;
+        letter-spacing: -0.14px;
+        transform: scaleY(0.9);
     }
 
     .box-5 {
@@ -65,6 +74,8 @@
         background-color: azure;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font1', sans-serif;
+        font-family: 'Font2', sans-serif;
+        letter-spacing: -0.14px;
+        transform: scaleY(0.9);
     }
 }
