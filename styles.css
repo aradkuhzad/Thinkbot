@@ -21,6 +21,17 @@
          url('/fonts/instrument-sans-regular.woff') format('woff'),
          url('/fonts/instrument-sans-regular.ttf') format('truetype');
   }
+
+
+.instrument-sans {
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
   
 
 .box {
@@ -37,7 +48,6 @@
     align-items: center;
     justify-content: center;    
     border-bottom: 1px solid rgb(224, 226, 230);
-    max-width: 100%;
 }
 
 .nav {
@@ -48,7 +58,6 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    max-width: 1152px;
     position: relative;
 }
 
@@ -165,14 +174,12 @@
 }
 
 .text-logo {
-    font-family: 'Font2', sans-serif;
+    font-family: "Instrument Sans", sans-serif;
     font-size: 18px;
     color: rgb(27, 27, 33);
     font-weight: 600;
-    transform: scaleY(0.8);
     letter-spacing: -0.54px;
     line-height: 28px;
-    -webkit-text-stroke: 0.01px rgb(27, 27, 33);
 }
 
 .Icon-logo img {
