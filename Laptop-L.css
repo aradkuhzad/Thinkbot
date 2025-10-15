@@ -18,7 +18,7 @@
     .nav-menu-content {
         width: min-content;
         height: min-content;
-        gap: 8.75px;
+        gap: 12.1px;
         display: flex;
         align-items: center;
     }
@@ -28,9 +28,8 @@
         padding: 8px 14px;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font2', sans-serif;
+        font-family: "Instrument Sans", sans-serif;
         letter-spacing: -0.14px;
-        transform: scaleY(0.9);
     }
 
     .box-2 {
@@ -38,7 +37,7 @@
         padding: 8px 14px;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font2', sans-serif;
+        font-family: "Instrument Sans", sans-serif;
         letter-spacing: -0.14px;
         transform: scaleY(0.9);
     }
@@ -48,7 +47,7 @@
         padding: 8px 14px;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font2', sans-serif;
+        font-family: "Instrument Sans", sans-serif;
         letter-spacing: -0.14px;
         transform: scaleY(0.9);
     }
@@ -58,9 +57,8 @@
         padding: 8px 14px;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font2', sans-serif;
+        font-family: "Instrument Sans", sans-serif;
         letter-spacing: -0.14px;
-        transform: scaleY(0.9);
     }
 
     .box-5 {
@@ -68,9 +66,9 @@
         padding: 8px 14px;
         font-size: 14px;
         border-radius: 999px;
-        font-family: 'Font2', sans-serif;
+        font-family: "Instrument Sans", sans-serif;
         letter-spacing: -0.14px;
-        transform: scaleY(0.9);
+
     }
 
     .nav::before {
