@@ -342,7 +342,7 @@
 
 
 .box-2-section-2 {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: min-content;
