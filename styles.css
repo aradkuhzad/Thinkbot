@@ -340,10 +340,24 @@
     padding: 0px 16px;
 }
 
-.content-comments-box {
+
+.box-2-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: min-content;
     height: 40px;
-    
+}
+
+
+.content-comments-box {
+
+}
+
+.content-star {
+    display: flex;
+    font-size: 12px;
+    gap: 1px;
 }
 
 
