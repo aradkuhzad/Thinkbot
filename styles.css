@@ -60,23 +60,7 @@
     position: relative;
 }
 
-.nav::before,
-.nav::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background-color: rgb(224, 226, 230);
-}
 
-.nav::before {
-    left: 16px;
-}
-
-.nav::after {
-    right: 16px;
-}
 
 .nav .logo::before,
 .nav .nav-box-right::before {
