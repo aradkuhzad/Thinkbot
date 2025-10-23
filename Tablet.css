@@ -49,30 +49,16 @@
         line-height: 20px;
     }
 
-    .nav .logo::before,
-.nav .nav-box-right::before {
-    top: 52px;
-}
 
-.nav .logo::before {
-    left: -27px;
-}
-
-.nav .nav-box-right::before {
-    top: 56px;
-    right: -27px;
-}
-
-    .nav::before {
-        left: 24px;
+    .box .nav-box::before {
+        top: 80px;
+        left: 21px;
     }
     
-    .nav::after {
-        right: 24px;
-    }
-
-    .box-2-1 {
-        top: 180px;
+    
+    .box .nav-box::after {
+        top: 80px;
+        right: 21px;
     }
     
     .big-text {
@@ -86,8 +72,9 @@
         width: auto;
     }
 
-    .section-2 {
-        padding: 0px 24px;
+    .border-section-2 {
+        left: 24px;
+        right: 24px;
     }
 }
 
