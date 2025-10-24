@@ -222,6 +222,7 @@
     box-sizing: border-box;
     flex-direction: column;
     gap: 32px;
+    max-width: 720px;
 }
 
 .box-button-2 {
@@ -298,6 +299,7 @@
     line-height: 24px;
     font-weight: 400;
     text-align: center;
+    max-width: 560px;
 }
 
 .box-button-get {
