@@ -89,6 +89,50 @@
          top: 180px;
     }
     
+
+
+.Comments-box {
+    width: 473px;
 }
 
+.text-left-20K {
+    display: flex;
+}
+
+.line-left {
+    display: block;
+    background-color: rgba(13, 41, 0, .05);
+    flex: none;
+    height: 16px;
+    overflow: hidden;
+    position: relative;
+    width: 1px;
+}
+
+.text-center-comments {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-right {
+    display: block;
+    background-color: rgba(13, 41, 0, .05);
+    flex: none;
+    height: 16px;
+    overflow: hidden;
+    position: relative;
+    width: 1px;
+}
+
+.content-comments-box  {
+    gap: 16px;
+    justify-content: center;
+    height: 40px;
+}
+
+.web-page {
+    display: none;
+}
+
+}
 
