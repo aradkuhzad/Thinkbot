@@ -72,10 +72,20 @@
         width: auto;
     }
 
-    .border-section-2 {
-        left: 24px;
-        right: 24px;
+    .section-2 {
+        padding: 0px 24px;
     }
+
+    .nav .logo::before {
+        top: 52px;
+        left: -27px;
+    }
+    
+    .nav .nav-box-right::before {
+        top: 56px;
+        right: -27px;
+    }
+    
 }
 
 
