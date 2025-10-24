@@ -38,7 +38,6 @@
     .text-button {
         position: relative;
         display: flex;
-        top: -1px;
         font-size: 14px;
         font-weight: 500;
         font-family: "Instrument Sans", sans-serif;
@@ -69,7 +68,7 @@
     }
 
     .box-button-get-started {
-        width: auto;
+        width: 121.06px;
     }
 
     .section-2 {
@@ -84,6 +83,10 @@
     .nav .nav-box-right::before {
         top: 56px;
         right: -27px;
+    }
+
+    .box-2-1 {
+         top: 180px;
     }
     
 }
