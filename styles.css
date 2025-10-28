@@ -20,9 +20,6 @@
     display: none;
 }
 
-.menu-toggle {
-    background-color: black;
-}
 
 .brand {
     display: flex;
@@ -32,12 +29,36 @@
 
 }
 
+.menu-toggle {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+
 .menu-icon {
+    display: flex;
     width: 24px;
     height: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-icon__bar {
+    width: 18px;
+    height: 2px;
+}
+
+.menu-icon__bar-2 {
     width: 18px;
     height: 2px;
 }
