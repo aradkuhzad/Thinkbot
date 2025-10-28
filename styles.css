@@ -1,0 +1,44 @@
+.page-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.header-inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+.primary-nav {
+    display: none;
+}
+
+.header-cta {
+    display: none;
+}
+
+.menu-toggle {
+    background-color: black;
+}
+
+.brand {
+    display: flex;
+    width: 105px;
+    height: 28px;
+    background-color: red;
+
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-icon__bar {
+    width: 18px;
+    height: 2px;
+}
+
