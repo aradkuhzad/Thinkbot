@@ -1,3 +1,18 @@
+.instrument-sans {
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+.site-header {
+    border-bottom: 1px solid rgb(224, 226, 230);
+}
+
+
 .page-container {
     display: flex;
     width: 100%;
@@ -37,8 +52,17 @@
     display: flex;
     width: 105px;
     height: 28px;
-    background-color: red;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    font-family: "Instrument Sans", sans-serif;
+}
 
+.brand__text {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.54px;
+    line-height: 28px;
 }
 
 .menu-toggle {
