@@ -1,4 +1,15 @@
     @media (min-width: 1153px) {
-
+        .box-border {
+            max-width: 1199px;
+            width: 100%;
+            position: absolute;
+        }
         
+        .box-all-border {
+            display: flex;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
 }
