@@ -10,6 +10,11 @@
 
 .header-inner {
     border-bottom: 1px solid rgb(224, 226, 230);
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 
 
@@ -19,13 +24,6 @@
 
 }
 
-.header-inner {
-    width: 100%;
-    height: 68px;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
 
 
 .site-nav {
@@ -97,5 +95,29 @@
 .menu-icon__bar-2 {
     width: 18px;
     height: 2px;
+}
+
+.border-left{
+    position: absolute;
+    margin-left: 16px;
+    height: 1332px;
+    border-left: 1px solid rgb(224, 226, 230);
+}
+
+.border-right {
+    position: absolute;
+    margin-right: 16px;
+    right: 0;
+    height: 1332px;
+    border-right: 1px solid rgb(224, 226, 230);
+}
+
+.circle-right {
+    content: '';
+    position: relative;
+    border: 1px solid rgb(224, 226, 230);
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    z-index: 101;
 }
 
