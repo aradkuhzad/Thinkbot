@@ -77,8 +77,62 @@
         top: 180px;
     }
 
-    .btn--primary {
-
+    .stats__number {
+        display: block;
     }
+    
+    .rating__label {
+        display: block;
+    }
+
+    .stats {
+        display: flex;
+    }
+    
+    .rating__divider--right {
+        display: block;
+        background-color: rgba(13, 41, 0, .05);
+        flex: none;
+        height: 16px;
+        overflow: hidden;
+        position: relative;
+        width: 1px;
+    }
+    
+    .rating__divider--left {
+        display: block;
+        background-color: rgba(13, 41, 0, .05);
+        flex: none;
+        height: 16px;
+        overflow: hidden;
+        position: relative;
+        width: 1px;
+    }
+
+    .stats__left {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rating__content {
+        gap: 16px;
+    }
+
+    .rating__content h6 + .rating__stars {
+        margin-left: 4px;
+      }
+      
+      .rating__content > *:first-child,
+      .rating__content > .rating__stars {
+        margin-right: 0;
+      }
+
+      .rating {
+        top: 9px;
+      }
+
+
 }
 
