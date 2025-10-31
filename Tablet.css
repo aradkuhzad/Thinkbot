@@ -133,6 +133,10 @@
         top: 9px;
       }
 
+      .site {
+        display: none;
+      }
+
 
 }
 
