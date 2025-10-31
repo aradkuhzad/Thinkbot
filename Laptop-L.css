@@ -1,4 +1,75 @@
 @media (min-width: 1199px) {
+    .site-nav {
+        padding: 24px;
+    }
 
- 
+    .menu-toggle {
+        display: none;
+    }
+
+    .primary-nav {
+        display: block;
+        width: 421px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primary-nav__list {
+        width: min-content;
+        height: min-content;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__item--about {
+        width: min-content;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: "Instrument Sans", sans-serif;
+        letter-spacing: -0.14px;
+    }
+
+    .nav__item--feature {
+        width: min-content;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: "Instrument Sans", sans-serif;
+        letter-spacing: -0.14px;
+    }
+
+    .nav__item--testimonials {
+        width: min-content;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: "Instrument Sans", sans-serif;
+        letter-spacing: -0.14px;
+    }
+
+    .nav__item--pricing {
+        width: min-content;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: "Instrument Sans", sans-serif;
+        letter-spacing: -0.14px;
+    }
+
+    .nav__item--faqs {
+        width: min-content;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 999px;
+        font-family: "Instrument Sans", sans-serif;
+        letter-spacing: -0.14px;
+    }
+
+
+    .border-left {
+        margin-left: 23px;
+    }
 }
