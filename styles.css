@@ -152,7 +152,7 @@
 
 .hero {
     width: 100%;
-    height: 100%;
+    height: min-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +169,7 @@
     justify-content: center;
     top: 132px;
     width: 100%;
-    height: auto;
+    height: min-content;
     padding: 0px 32px;
     z-index: 10;
     box-sizing: border-box;
@@ -454,4 +454,67 @@
 .rating__main {
     display: flex;
     gap: 8px;
+}
+
+
+
+.site {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0px 16px;
+
+}
+
+
+.site__wrap {
+    border-bottom-width: 1px;
+    border-color: var(--token-9d64a123-47dc-41f5-b792-92186f48fc2d, rgba(13, 41, 0, .05));
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--token-f53432d4-4134-4c6a-a9b2-c365244cc5e1, rgba(13, 41, 0, .03));
+    border-radius: 24px;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 48px 8px 8px;
+    position: relative;
+    width: 100%;
+    top: -50px;
+}
+
+.site__inner {
+    border-bottom-width: 1px;
+    border-color: var(--token-7215195e-1d82-493f-90a7-d3f5394db5ae, rgba(13, 41, 0, .1));
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--token-becea183-8eb9-4504-a8a1-482108af648a, #ffffff);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px -4px var(--token-839020e4-6a12-4bb6-ba0b-e0322bf26f54, rgba(100, 162, 13, .5)), 0 12px 18px -2px var(--token-8ee9b84a-93e4-423b-be20-11188e955643, rgba(100, 162, 13, .3));
+    cursor: default;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: 480px;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    will-change: var(--framer-will-change-override, transform);
 }
