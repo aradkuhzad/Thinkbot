@@ -61,5 +61,24 @@
         width: 135px;
         height: 36px;
     }
+
+    .hero-cta-inner {
+        width: auto;
+        padding: 8px 19px;
+    }
+
+    .hero-heading {
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1.12px;
+    }
+
+    .hero__inner {
+        top: 180px;
+    }
+
+    .btn--primary {
+
+    }
 }
 
